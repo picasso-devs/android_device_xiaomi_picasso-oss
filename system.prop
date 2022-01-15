@@ -32,3 +32,6 @@ persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # Vendor
 ro.vendor.qti.va_aosp.support=1
+
+# Disable RescueParty due to high risk of data loss
+persist.sys.disable_rescue=true
