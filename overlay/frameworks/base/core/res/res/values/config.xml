@@ -546,4 +546,6 @@
           available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
 
+    <!-- Whether to force enable multi resolution configuration for camera -->
+    <bool name="config_forceMultiResolution">true</bool>
 </resources>
