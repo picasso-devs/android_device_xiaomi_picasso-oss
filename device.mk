@@ -173,7 +173,7 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libgui_vendor \
-    GCamGO \
+    CameraLite \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -273,7 +273,11 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # IFAA manager
-include vendor/xiaomi/sdm845-common-extra/ifaa.mk
+PRODUCT_PACKAGES += \
+    org.ifaa.android.manager
+
+PRODUCT_BOOT_JARS += \
+    org.ifaa.android.manager
 
 # IPACM
 PRODUCT_PACKAGES += \
@@ -450,7 +454,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.2-service-qti
+    android.hardware.usb@1.3-service-qti
 
 # Vendor service manager
 PRODUCT_PACKAGES += \

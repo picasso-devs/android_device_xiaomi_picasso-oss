@@ -5,8 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_picasso.mk
-
-COMMON_LUNCH_CHOICES := \
-    aosp_picasso-userdebug \
-    aosp_picasso-eng
+    $(LOCAL_DIR)/awaken_picasso.mk
