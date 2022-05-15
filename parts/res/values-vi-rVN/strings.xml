@@ -19,8 +19,8 @@
     <string name="ambient_enable">Dùng màn hình hiển thị xung quanh</string>
     
     <!-- Dirac settings -->
-    <string name="dirac_enable">Bật hệ thống Mi Sound</string>
-    <string name="dirac_title">Tăng cường Mi Sound</string>
+    <string name="dirac_enable">Sử dụng Bộ tăng cường Âm thanh Mi</string>
+    <string name="dirac_title">Bộ tăng cường Âm thanh Mi</string>
     <string name="dirac_summary">Tối ưu chất lượng âm thanh</string>
     <string name="dirac_headset_title">Chọn loại tai nghe</string>
     <string name="dirac_hifi_enable_title">Bật Hi-fi</string>
