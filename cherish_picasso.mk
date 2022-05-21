@@ -24,6 +24,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Cherish stuffs
+CHERISH_BUILD_TYPE := OFFICIAL
 WITH_GMS := true
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=masarou
