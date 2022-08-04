@@ -141,12 +141,6 @@ media.stagefright.enable-qcp=true
 media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
-# MIUI Camera
-ro.product.mod_device=picasso
-vendor.camera.aux.packagelist=com.android.camera
-persist.vendor.camera.privapp.list=com.android.camera
-ro.miui.notch=1
-
 # Netflix
 ro.netflix.bsp_rev=Q7250-19133-1
 
