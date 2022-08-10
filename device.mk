@@ -17,7 +17,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
 
 # Miui Camera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+#$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -280,11 +280,11 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # IFAA manager
-PRODUCT_PACKAGES += \
-    org.ifaa.android.manager
+#PRODUCT_PACKAGES += \
+#    org.ifaa.android.manager
 
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+#PRODUCT_BOOT_JARS += \
+#    org.ifaa.android.manager
 
 # IPACM
 PRODUCT_PACKAGES += \
